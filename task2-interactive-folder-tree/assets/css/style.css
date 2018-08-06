@@ -1,0 +1,47 @@
+.title {
+	font-size: 30px;
+}
+.folder-tree-wrapper {
+	float: left;
+	height: 400px;
+	width: 400px;
+	margin: 10px 20px;
+}
+.rules {
+	float: left;
+	height: 400px;
+	width: 400px;
+	margin-left: 60px;
+}
+.folder-entry:nth-child(odd) {
+	background: #ccc;
+}
+.folder-entry:nth-child(even) {
+	background: #ececec;
+}
+.folder-icon {	
+	height: 32px;
+	width: 32px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.folder-name {
+	margin-left: 5px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+.subfolder-entry {
+	margin-left: 40px;
+}
+li {
+	margin: 20px 0;
+	font-size: 18px;
+}
+span[data-highlight=yes], 
+.text-highlighted {
+	background: lightseagreen;
+}
+.active, 
+.text-active {
+	background: lightcoral;
+}
